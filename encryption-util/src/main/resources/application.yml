@@ -1,0 +1,13 @@
+spring:
+  application:
+    name=encryption-util
+
+server:
+  port= 8089
+
+cm.core.encryption.properties:
+  TypeAESCBC256_1:
+    passphrase: "password1"
+    salt: "23456789123456789012345"
+    iv: "ghtgyetyYvg6Tyhbhvgjhv=="
+    cipherSpec: "AES_CBC_PKCS5PADDING_256"
